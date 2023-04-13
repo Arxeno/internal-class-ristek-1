@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import TotalExpense from '../components/TotalExpense';
 import CONFIG from '../config';
 import Card from '../components/Card';
+import './Home.scss';
 
 const categoryNames = [
   'Housing',
